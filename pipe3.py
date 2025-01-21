@@ -4,7 +4,7 @@ classifier = pipeline("zero-shot-classification")
 
 res = classifier(
   "this is about Python list comprehension",
-  candidate_labels = ["education", "politics", "business", "sport" ]
+  candidate_labels = ["education", "politics", "business", "sport", "other" ]
 )
 
 print(res)
