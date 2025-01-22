@@ -31,6 +31,9 @@ print(ids)
 
 
 decoded_string = tokenizer.decode(ids)
+
 print(decoded_string)
+
+
 
 
